@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/styles.css">
+
+        <title>Guess the Number | by Melyssa</title>
+</head>
+
+<body>
+    <section class="principal">
+        <h1 class="principal__title">Number guessing game</h1>
+        
+        <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+        
+        <div class="form">
+            <label for="guessField" class="guessLabel">Enter a guess: </label>
+            <input type="number" min="1" max="100" required id="guessField" class="guessField">
+            <input type="submit" value="Submit guess" class="guessSubmit">
+        </div>
+        
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </section>
+
+    <script src='./assets/js/main.js'></script>
+</body>
+</html>

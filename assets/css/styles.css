@@ -1,0 +1,69 @@
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0 auto;
+    background-color: darkviolet;
+  }
+
+  .principal {
+    color:beige;
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  .form input[type="number"] {
+    width: 200px;
+  }
+
+  .lastResult {
+    color: white;
+  }
+
+  .guessField {
+    border-radius: 20px;
+  }
+
+  .guessSubmit {
+    transition: .5s;
+  }
+
+  .guessSubmit:hover {
+    background: purple;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .lastResult {
+    width: 100%;
+    text-align: center;
+  }
+
+  button {
+   margin-left: 46.5%;
+  }
+
+  @media screen and (max-width: 440px) {
+
+    body {
+      min-width: 0;
+      margin: 0;
+    }
+
+    .principal {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .guessLabel {
+      display: block;
+      margin-bottom: .5rem;
+    }
+
+    button {
+      margin-left: 34%;
+    }
+
+  }
