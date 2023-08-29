@@ -44,6 +44,11 @@ html {
   button {
    margin-left: 46.5%;
   }
+  
+  #fixBox{
+    display: inline-block;
+    width: 110px;
+  }
 
   @media screen and (max-width: 440px) {
 
